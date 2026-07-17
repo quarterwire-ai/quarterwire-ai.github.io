@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quarterwire — the quarterly machine for MTD practices</title>
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,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">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2040%2040%27%3E%3Crect%20width%3D%2740%27%20height%3D%2740%27%20rx%3D%278%27%20fill%3D%27%2310243A%27%2F%3E%3Cpath%20d%3D%27M20%2020%20L20%205%20A15%2015%200%200%201%2035%2020%20Z%27%20fill%3D%27%232FB6A3%27%2F%3E%3Cpath%20d%3D%27M20%2020%20L35%2020%20A15%2015%200%200%201%2020%2035%20Z%27%20fill%3D%27%231b3550%27%2F%3E%3Cpath%20d%3D%27M20%2020%20L20%2035%20A15%2015%200%200%201%205%2020%20Z%27%20fill%3D%27%231b3550%27%2F%3E%3Cpath%20d%3D%27M20%2020%20L5%2020%20A15%2015%200%200%201%2020%205%20Z%27%20fill%3D%27%231b3550%27%2F%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%2720%27%20r%3D%272.4%27%20fill%3D%27%23F4F6F8%27%2F%3E%3C%2Fsvg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="description" content="A done-for-you MTD quarterly-cycle service for small UK accounting practices. We chase records, hold deadlines and stage information requests — your clients' figures never leave your own systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#10243A; --teal:#2FB6A3; --surface:#F4F6F8; --amber:#E8A13A;
+  --ink-soft:#40566e; --line:#e2e7ee; --muted:#6b7c90; --panel:#fff;
+  --amber-bg:rgba(232,161,58,.07); --amber-tag:rgba(232,161,58,.16); --amber-fg:#a86c14;
+  --teal-bg:rgba(47,182,163,.06); --teal-tag:rgba(47,182,163,.14); --teal-fg:#1c7f70;
+  --display:'Geist',system-ui,sans-serif; --body:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--surface);line-height:1.55;font-feature-settings:"tnum" 1;-webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+.sec{padding:60px 0;border-top:1px solid var(--line)}
+.sec:first-of-type{border-top:0}
+.eyebrow{font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--teal-fg);margin-bottom:14px}
+h2{font-family:var(--display);font-size:clamp(22px,3.4vw,30px);font-weight:600;letter-spacing:-.015em;line-height:1.2;margin-bottom:14px;max-width:24ch}
+.lede{font-size:17px;color:var(--ink-soft);max-width:60ch;margin-bottom:28px}
+p{max-width:64ch}
+
+/* header */
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:30px 0 6px}
+.brand{display:flex;align-items:center;gap:12px}
+.word{font-family:var(--display);font-weight:600;font-size:20px;letter-spacing:-.01em}
+.navcta{font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;border-bottom:2px solid var(--teal)}
+
+/* hero */
+.hero{padding:34px 0 60px}
+h1{font-family:var(--display);font-size:clamp(30px,5.4vw,46px);font-weight:600;letter-spacing:-.02em;line-height:1.13;max-width:16ch;margin-bottom:18px}
+.sub{font-size:18px;color:var(--ink-soft);max-width:54ch;margin-bottom:26px}
+
+/* CTA */
+.ctas{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.cta{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;padding:15px 26px;border-radius:8px;font-size:16px;transition:transform .15s ease}
+.cta:hover{transform:translateY(-1px)}
+.cta.alt{background:transparent;color:var(--ink);border:1px solid #c6cfda}
+.cta:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.microcta{font-size:13px;color:var(--muted);margin-top:10px}
+
+/* hero status board */
+.demo-label{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:36px 0 10px}
+.demo{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;margin-bottom:12px;box-shadow:0 1px 2px rgba(16,36,58,.05);position:relative;animation:demoReset 11s ease-in-out infinite}
+.board-head{display:flex;justify-content:space-between;align-items:baseline;padding:0 4px 10px;border-bottom:1px solid var(--line);margin-bottom:10px}
+.board-head b{font-size:13px;font-weight:600}
+.board-head span{font-size:12px;color:var(--muted)}
+.row{display:flex;align-items:center;justify-content:space-between;padding:11px 12px;border-radius:6px;font-size:14px;font-weight:500;background:var(--teal-bg)}
+.row+.row{margin-top:6px}
+.rlabel{display:flex;flex-direction:column;gap:1px}
+.rlabel small{font-size:11.5px;font-weight:400;color:var(--muted)}
+.tag{font-size:12px;font-weight:600;padding:3px 10px;border-radius:20px;white-space:nowrap;background:var(--teal-tag);color:var(--teal-fg)}
+.row:not(.chase) > .tag::before{content:"Ready"}
+.row.chase{background:var(--amber-bg);animation:rowBg 11s ease-in-out infinite}
+.row.chase .tag{background:var(--amber-tag);color:var(--amber-fg);animation:tagFlip 11s ease-in-out infinite}
+.row.chase.d2{animation-delay:.5s}.row.chase.d2 .tag{animation-delay:.5s}
+@keyframes rowBg{0%,27%{background:var(--amber-bg)}33%,86%{background:var(--teal-bg)}90%,100%{background:var(--amber-bg)}}
+@keyframes tagFlip{0%,27%{background:var(--amber-tag);color:var(--amber-fg)}33%,86%{background:var(--teal-tag);color:var(--teal-fg)}90%,100%{background:var(--amber-tag);color:var(--amber-fg)}}
+.tw{position:relative;display:inline-block}
+.tw .due,.tw .ready{display:inline-block}
+.row.chase .tw .ready{position:absolute;left:0;top:0;opacity:0;animation:wordReady 11s ease-in-out infinite}
+.row.chase .tw .due{animation:wordDue 11s ease-in-out infinite}
+.row.chase.d2 .tw .ready{animation-delay:.5s}.row.chase.d2 .tw .due{animation-delay:.5s}
+@keyframes wordDue{0%,29%{opacity:1}32%,86%{opacity:0}90%,100%{opacity:1}}
+@keyframes wordReady{0%,29%{opacity:0}32%,86%{opacity:1}90%,100%{opacity:0}}
+.runbar{display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.run{font-size:12.5px;font-weight:600;color:#fff;background:var(--ink);border:0;border-radius:6px;padding:8px 14px;cursor:default;animation:btnPress 11s ease-in-out infinite}
+.runnote{font-size:12px;color:var(--muted)}
+@keyframes btnPress{0%,23%{transform:translateY(0);filter:none}25%{transform:translateY(1px);filter:brightness(.9)}28%,100%{transform:translateY(0);filter:none}}
+.cursor{position:absolute;width:18px;height:18px;pointer-events:none;opacity:0;animation:cursorMove 11s ease-in-out infinite;filter:drop-shadow(0 1px 1px rgba(16,36,58,.3))}
+@keyframes cursorMove{0%,3%{opacity:0;transform:translate(46px,58px)}9%{opacity:1;transform:translate(46px,58px)}22%{opacity:1;transform:translate(0,0)}24.5%{transform:translate(0,3px)}27%{transform:translate(0,0)}40%{opacity:1;transform:translate(0,0)}46%,100%{opacity:0;transform:translate(0,0)}}
+@keyframes demoReset{0%,84%{opacity:1}88%,91%{opacity:0}96%,100%{opacity:1}}
+.caption{position:relative;min-height:40px;margin-bottom:6px}
+.caption .cap{position:absolute;left:0;top:0;font-size:13.5px;color:var(--ink-soft);max-width:60ch}
+.caption .cap b{color:var(--ink)}
+.caption .cap-before{animation:capBefore 11s ease-in-out infinite}
+.caption .cap-after{opacity:0;animation:capAfter 11s ease-in-out infinite}
+@keyframes capBefore{0%,29%{opacity:1}33%,86%{opacity:0}90%,100%{opacity:1}}
+@keyframes capAfter{0%,29%{opacity:0}33%,86%{opacity:1}90%,100%{opacity:0}}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px}
+.stat .fig{font-family:var(--display);font-size:26px;font-weight:600;letter-spacing:-.02em;color:var(--ink);line-height:1.1}
+.stat .cap{font-size:13px;color:var(--ink-soft);margin-top:8px;max-width:none}
+.urgency{background:var(--amber-bg);border:1px solid rgba(232,161,58,.28);border-radius:8px;padding:14px 16px;font-size:14.5px;color:var(--ink);margin-bottom:14px}
+.urgency b{color:var(--amber-fg)}
+.src{font-size:12px;color:var(--muted)}
+
+/* contrast cols */
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+.col{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px}
+.col h3{font-family:var(--display);font-size:15px;font-weight:600;margin-bottom:8px}
+.col p{font-size:13.5px;color:var(--ink-soft);max-width:none}
+.resolve{background:var(--ink);color:#fff;border-radius:8px;padding:18px 20px;font-size:15.5px}
+.resolve b{color:var(--teal)}
+.resolve p{max-width:66ch;color:#dfe6ee}
+
+/* data posture */
+.diagram{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;margin:6px 0 18px}
+.diagram svg{width:100%;height:auto;display:block}
+.datanote{display:grid;gap:10px;margin-bottom:18px}
+.datanote li{list-style:none;display:flex;gap:10px;align-items:flex-start;font-size:15px;color:var(--ink-soft)}
+.datanote .dot{width:8px;height:8px;border-radius:50%;background:var(--teal);margin-top:8px;flex:0 0 auto}
+.softcta{font-size:14.5px}
+.softcta a{color:var(--ink);font-weight:600;border-bottom:2px solid var(--teal);text-decoration:none}
+
+/* operator */
+.op{display:flex;gap:18px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px}
+.op .mono{flex:0 0 auto}
+.op h3{font-family:var(--display);font-size:16px;font-weight:600;margin-bottom:4px}
+.op .role{font-size:13px;color:var(--muted);margin-bottom:12px}
+.op p{font-size:14.5px;color:var(--ink-soft)}
+
+/* gap audit */
+.audit{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:24px;border-left:4px solid var(--teal)}
+.audit ul{list-style:none;display:grid;gap:10px;margin:14px 0 22px}
+.audit li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+.audit .dot{width:8px;height:8px;border-radius:50%;background:var(--teal);margin-top:8px;flex:0 0 auto}
+.audit .modes{font-size:13.5px;color:var(--muted);margin-top:14px}
+
+footer{padding:34px 0 60px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);line-height:1.6}
+
+@media (max-width:720px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .cols{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .wrap{padding:0 18px}
+  .board-head span{display:none}
+  .navcta{display:none}
+  .op{flex-direction:column;gap:12px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .demo,.demo *{animation:none!important}
+  .cta:hover{transform:none}
+  .row.chase{background:var(--teal-bg)}
+  .row.chase .tag{background:var(--teal-tag);color:var(--teal-fg)}
+  .row.chase .tw .due{opacity:0}.row.chase .tw .ready{position:static;opacity:1}
+  .cursor{display:none}
+  .caption .cap-before{display:none}.caption .cap-after{position:static;opacity:1}
+  .flag-anim{animation:none!important}
+}
+</style></head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <svg width="34" height="34" viewBox="0 0 40 40" aria-label="Quarterwire logo" role="img">
+      <circle cx="20" cy="20" r="18" fill="#10243A"/>
+      <path d="M20 20 L20 3 A17 17 0 0 1 37 20 Z" fill="#2FB6A3"/>
+      <path d="M20 20 L37 20 A17 17 0 0 1 20 37 Z" fill="#1b3550"/>
+      <path d="M20 20 L20 37 A17 17 0 0 1 3 20 Z" fill="#1b3550"/>
+      <path d="M20 20 L3 20 A17 17 0 0 1 20 3 Z" fill="#1b3550"/>
+      <circle cx="20" cy="20" r="2.4" fill="#F4F6F8"/></svg>
+    <span class="word">Quarterwire</span>
+  </div>
+  <a class="navcta" href="#gap-audit">The free Gap Audit →</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>The quarterly machine for MTD practices.</h1>
+  <p class="sub">Installed once. Runs every quarter. You keep the sign-off. Your clients' data never leaves your own systems.</p>
+  <div class="ctas">
+    <a class="cta" href="https://wa.me/27818506369?text=Hi%20%E2%80%94%20I'd%20like%20the%20free%20Quarterwire%20Gap%20Audit">Get your free Gap Audit</a>
+    <a class="cta alt" href="mailto:contact.quarterwire@gmail.com?subject=Quarterwire%20Gap%20Audit">Or email instead</a>
+  </div>
+  <p class="microcta">A short read mapping how MTD's quarterly load lands across your book. No client data needed, nothing to install.</p>
+
+  <p class="demo-label">A quarter, run start to finish — illustrative</p>
+  <div class="demo" aria-hidden="true">
+    <div class="board-head"><b>Q update · your book</b><span>next deadline 07 Aug</span></div>
+    <div class="row"><span class="rlabel">Sole trader — records reconciled<small>Q update · due 07 Aug</small></span><span class="tag"></span></div>
+    <div class="row chase d1"><span class="rlabel">Landlord — awaiting records<small>Q update · due 07 Aug</small></span>
+      <span class="tag"><span class="tw"><span class="due">Chase due</span><span class="ready">Ready</span></span></span></div>
+    <div class="row chase d2"><span class="rlabel">CIS subcontractor — awaiting records<small>Q update · due 07 Aug</small></span>
+      <span class="tag"><span class="tw"><span class="due">Chase due</span><span class="ready">Ready</span></span></span></div>
+    <div class="row"><span class="rlabel">Sole trader — records reconciled<small>Q update · due 07 Aug</small></span><span class="tag"></span></div>
+    <div class="runbar">
+      <button class="run" type="button" tabindex="-1">Run quarterly chase</button>
+      <span class="runnote">drafts sent in your voice · you approve and file</span>
+    </div>
+    <svg class="cursor" viewBox="0 0 24 24" aria-hidden="true" style="left:24px;top:238px"><path d="M3 2 L3 18 L7.5 13.8 L10.5 20.5 L13 19.4 L10 12.8 L16 12.5 Z" fill="#10243A" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/></svg>
+  </div>
+  <div class="caption">
+    <p class="cap cap-before"><b>Before</b> — two clients still missing records for the 07 Aug update.</p>
+    <p class="cap cap-after"><b>After</b> — chases drafted and sent, records in, whole book cleared. Every deadline mapped, nothing missed.</p>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="sec">
+  <p class="eyebrow">The workload, on a legislated date</p>
+  <h2>MTD for Income Tax is phased, mandatory, and already underway.</h2>
+  <p class="lede">This isn't a maybe you can defer. The quarterly cycle multiplies the coordination behind every mandated client — the part that scales badly by hand.</p>
+  <div class="stats">
+    <div class="stat"><div class="fig">Live now</div><div class="cap">The £50k wave began April 2026. £30k follows April 2027, £20k April 2028.</div></div>
+    <div class="stat"><div class="fig">1 → 5</div><div class="cap">Each client goes from one annual return to four quarterly updates plus a final declaration.</div></div>
+    <div class="stat"><div class="fig">~150</div><div class="cap">A 30-client book moves from roughly 30 filing events a year to around 150 submission points.</div></div>
+    <div class="stat"><div class="fig">≈ 3 in 4</div><div class="cap">Firms already turning work away for lack of capacity (Advancetrack, 2026).</div></div>
+  </div>
+  <div class="urgency">The penalty holiday only covers the first wave's 2026/27 year. <b>Practices mandated from April 2027 get no quarterly-update easement</b> — points apply from the first quarter. The load compounds regardless of readiness.</div>
+  <p class="src">Sources: HMRC / GOV.UK (Making Tax Digital for Income Tax; quarterly deadlines 7 Aug, 7 Nov, 7 Feb, 7 May plus final declaration); Advancetrack Accounting Talent Index 2026.</p>
+</section>
+
+<!-- CONTRAST -->
+<section class="sec">
+  <p class="eyebrow">Why the usual fixes fall short</p>
+  <h2>You've likely already weighed the three obvious options.</h2>
+  <div class="cols">
+    <div class="col"><h3>Your software reminds you</h3><p>Xero, QuickBooks and Dext tell you a deadline is coming. They don't chase the records, check the gaps across every client, or stage what's missing. A reminder is not the job.</p></div>
+    <div class="col"><h3>Offshore does it cheaper</h3><p>A managed offshore hire runs £1,400–£3,000 a month, sends your clients' data offshore, and still lands back on your desk for review.</p></div>
+    <div class="col"><h3>Just hire someone</h3><p>An admin capable of this coordination costs more than any retainer — and, per the capacity data, the people simply aren't there to recruit.</p></div>
+  </div>
+  <div class="resolve"><p>Quarterwire is the only option that is <b>done-for-you like a hire, priced below one, and keeps your clients' data in your own systems</b>. It's priced for the workload it removes, not by the hour — so it doesn't compete on the offshore cost curve.</p></div>
+</section>
+
+<!-- DATA POSTURE (the moat) -->
+<section class="sec">
+  <p class="eyebrow">Where your clients' data goes</p>
+  <h2>Nowhere it doesn't already live. We hold status — never a figure.</h2>
+  <div class="diagram">
+    <svg viewBox="0 0 640 190" role="img" aria-label="Data-posture diagram: figures stay in the practice's systems; Quarterwire holds status only">
+      <rect x="8" y="40" width="270" height="110" rx="8" fill="#fff" stroke="#e2e7ee"/>
+      <text x="28" y="70" font-family="Geist,sans-serif" font-size="14" font-weight="600" fill="#10243A">Practice systems</text>
+      <text x="28" y="92" font-family="Inter,sans-serif" font-size="12.5" fill="#40566e">Xero / QuickBooks / Dext</text>
+      <rect x="28" y="106" width="230" height="30" rx="6" fill="rgba(47,182,163,.08)"/>
+      <text x="40" y="125" font-family="Inter,sans-serif" font-size="12.5" fill="#1c7f70">Every financial figure stays here</text>
+
+      <rect x="362" y="40" width="270" height="110" rx="8" fill="#10243A"/>
+      <text x="382" y="70" font-family="Geist,sans-serif" font-size="14" font-weight="600" fill="#fff">Quarterwire</text>
+      <text x="382" y="92" font-family="Inter,sans-serif" font-size="12.5" fill="#aebccd">Labels · deadlines · status</text>
+      <rect x="382" y="106" width="230" height="30" rx="6" fill="rgba(47,182,163,.16)"/>
+      <text x="394" y="125" font-family="Inter,sans-serif" font-size="12.5" fill="#8fe4d6">No figures, ever</text>
+
+      <line x1="278" y1="95" x2="362" y2="95" stroke="#2FB6A3" stroke-width="2"/>
+      <circle class="flag-anim" cx="320" cy="95" r="6" fill="#2FB6A3"/>
+      <text x="298" y="30" font-family="Inter,sans-serif" font-size="11.5" fill="#6b7c90">status flags only</text>
+    </svg>
+  </div>
+  <ul class="datanote">
+    <li><span class="dot"></span><span>Your figures never leave your systems. Quarterwire records names, labels, deadlines and status flags — and nothing else. If a step would ever need an amount, it flags you for a decision instead of recording it.</span></li>
+    <li><span class="dot"></span><span>Every engagement is covered by a UK–South Africa data-transfer agreement — the IDTA, processor terms and a transfer-risk note — provided for your side to review before anything begins.</span></li>
+  </ul>
+  <p class="softcta">Want to read it first? <a href="https://wa.me/27818506369?text=Hi%20%E2%80%94%20could%20you%20send%20the%20Quarterwire%20data-transfer%20pack%20to%20review%3F">Ask for the data-transfer pack</a> — no commitment.</p>
+</section>
+
+<!-- OPERATOR (the human) -->
+<section class="sec">
+  <p class="eyebrow">Who runs it</p>
+  <div class="op">
+    <svg class="mono" width="52" height="52" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" rx="8" fill="#10243A"/>
+      <path d="M20 20 L20 5 A15 15 0 0 1 35 20 Z" fill="#2FB6A3"/>
+      <path d="M20 20 L35 20 A15 15 0 0 1 20 35 Z" fill="#1b3550"/>
+      <path d="M20 20 L20 35 A15 15 0 0 1 5 20 Z" fill="#1b3550"/>
+      <path d="M20 20 L5 20 A15 15 0 0 1 20 5 Z" fill="#1b3550"/>
+      <circle cx="20" cy="20" r="2.4" fill="#F4F6F8"/></svg>
+    <div>
+      <h3>Ethan Scheffers</h3>
+      <p class="role">Operator, Quarterwire · South Africa</p>
+      <p>I built Quarterwire so the quarterly coordination gets done without your clients' figures ever reaching me. I run the workflow; you and your team stay the accountants and keep every sign-off. I'm based in South Africa — which is exactly why the data posture and the transfer agreement come first here, not as an afterthought. You'll always know precisely what I hold, and it's never a number.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GAP AUDIT (conversion) -->
+<section class="sec" id="gap-audit">
+  <p class="eyebrow">Start here — free</p>
+  <div class="audit">
+    <h2>The Gap Audit</h2>
+    <p>A short written read that maps how MTD's quarterly load will land across your book, wave by wave — which clients fall into which threshold, where the deadlines cluster, and where the chasing will bite hardest.</p>
+    <ul>
+      <li><span class="dot"></span><span>Costs you nothing. No client data, nothing to install, no call unless you want one.</span></li>
+      <li><span class="dot"></span><span>Built from your own high-level answers — a rough client split by MTD wave is all it takes.</span></li>
+      <li><span class="dot"></span><span>Returned as a clear, letterhead-grade report you can keep, whatever you decide next.</span></li>
+    </ul>
+    <div class="ctas">
+      <a class="cta" href="https://wa.me/27818506369?text=Hi%20%E2%80%94%20I'd%20like%20the%20free%20Quarterwire%20Gap%20Audit">Get your free Gap Audit</a>
+      <a class="cta alt" href="mailto:contact.quarterwire@gmail.com?subject=Quarterwire%20Gap%20Audit">Or email instead</a>
+    </div>
+    <p class="modes">Two ways to take it: a written report you read whenever, or a 15-minute walkthrough. Your choice.</p>
+  </div>
+</section>
+
+<footer>
+Quarterwire runs the MTD quarterly cycle for small UK accounting practices — record-chasing, filing-calendar management, record-gap detection and information-request staging. We hold workflow status only, never your clients' financial figures. Operated by Ethan Scheffers, South Africa. Every engagement is covered by a UK–South Africa data-transfer agreement provided before any onboarding.
+</footer>
+
+</div>
+</body></html>
